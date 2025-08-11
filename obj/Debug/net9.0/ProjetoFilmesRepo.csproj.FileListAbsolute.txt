@@ -1,0 +1,14 @@
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\bin\Debug\net9.0\ProjetoFilmesRepo.exe
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\bin\Debug\net9.0\ProjetoFilmesRepo.deps.json
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\bin\Debug\net9.0\ProjetoFilmesRepo.runtimeconfig.json
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\bin\Debug\net9.0\ProjetoFilmesRepo.dll
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\bin\Debug\net9.0\ProjetoFilmesRepo.pdb
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.AssemblyInfoInputs.cache
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.AssemblyInfo.cs
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.csproj.CoreCompileInputs.cache
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.dll
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\refint\ProjetoFilmesRepo.dll
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.pdb
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.genruntimeconfig.cache
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ref\ProjetoFilmesRepo.dll
