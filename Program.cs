@@ -28,12 +28,15 @@ try
                 break;
             case 3:
                 System.Console.WriteLine("Digite o titulo a ser buscado: ");
-                string titulo = Console.ReadLine();
+                string? titulo = Console.ReadLine();
                 Filme pesquisado = repository.PesquisarPorTitulo(titulo);
                 System.Console.WriteLine(pesquisado.ToString());
                 break;
             case 4:
-                System.Console.WriteLine("valor 4 selecionado");
+                System.Console.WriteLine("Digite o titulo a ser excluido:");
+                string? excluido = Console.ReadLine();
+                Filme filmeExcluido = repository.Excluir(excluido);
+                System.Console.WriteLine("Filme excluido!");
                 break;
             case 5:
                 System.Console.WriteLine("Saindo...");
@@ -52,11 +55,11 @@ catch (SelecaoException e)
 static Filme ColetarDados()
 {
     System.Console.WriteLine("Digite o Nome do Filme: ");
-    string nome = Console.ReadLine();
+    string? nome = Console.ReadLine();
     System.Console.WriteLine("Digite a data no formato dd/MM/yyyy");
     DateTime data = DateTime.Parse(Console.ReadLine());
     System.Console.WriteLine("Digite o gênero do filme");
-    string genero = Console.ReadLine();
+    string? genero = Console.ReadLine();
     System.Console.WriteLine("Digite a Avaliação do filme (0 - 10)");
     double avaliacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
     if (avaliacao < 0 || avaliacao > 10)

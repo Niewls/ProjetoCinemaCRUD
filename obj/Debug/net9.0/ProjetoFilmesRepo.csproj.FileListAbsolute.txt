@@ -12,3 +12,4 @@ C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\refint\Pro
 C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.pdb
 C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.genruntimeconfig.cache
 C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ref\ProjetoFilmesRepo.dll
+C:\Users\nielp\Desktop\Programs\C#\ProjetoFilmesRepo\obj\Debug\net9.0\ProjetoFilmesRepo.sourcelink.json

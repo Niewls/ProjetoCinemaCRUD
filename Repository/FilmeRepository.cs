@@ -20,16 +20,13 @@ namespace ProjetoFilmesRepo.Repository
 
         public Filme Excluir(string titulo)
         {
-            var filmeExcluido = _filmeSet.Filmes.FirstOrDefault(p => p.Titulo == titulo);
+            var filmeExcluido = _filmeSet.Filmes.FirstOrDefault(p => p.Titulo.ToUpper() == titulo.ToUpper());
             if (filmeExcluido == null)
             {
                 throw new SelecaoException("Filme Inexistente!");
             }
-            else
-            {
                 _filmeSet.Filmes.Remove(filmeExcluido);
-            }
-            return filmeExcluido;
+                return filmeExcluido;
         }
 
         public void Listar()
@@ -47,10 +44,8 @@ namespace ProjetoFilmesRepo.Repository
             {
                 throw new SelecaoException("Filme Inexistente!");
             }
-            else
-            {
                 return filmePesquisado;
-            }
+            
         }
     }
 }

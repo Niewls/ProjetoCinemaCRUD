@@ -15,7 +15,7 @@ namespace ProjetoFilmesRepo.DataBase
 
         public void AdicionarFilmes(Filme filme)
         {
-            var filmeExistente = Filmes.FirstOrDefault(p => p.Titulo == filme.Titulo);
+            var filmeExistente = Filmes.FirstOrDefault(p => p.Titulo.ToUpper() == filme.Titulo.ToUpper());
             if (filmeExistente != null)
             {
                 throw new SelecaoException("Filme Existente!");
